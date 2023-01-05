@@ -1,0 +1,402 @@
+.nameContainer {
+  width: 100%;
+  height: auto;
+  padding: 20px 130px;
+  position: relative;
+  overflow: hidden;
+  background-color: RGB(250, 250, 250);
+}
+.nameItem {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.nameBox {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameBox h1 {
+  font-size: 44px;
+  width: 85%;
+  font-weight: 900;
+}
+.nameBox .span1 {
+  width: 80%;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 20px;
+  color: black;
+}
+.replace {
+  display: block;
+  line-height: 45px;
+  margin: auto;
+  padding-top: 50px;
+  margin-left: 20px;
+  line-height: 55px;
+}
+.replace h1 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.replace button {
+  width: 236px;
+  height: 60px;
+  background-color: RGB(239, 181, 66);
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.replace p {
+  font-size: 20px;
+}
+.nameBox .span1 a {
+  color: black;
+}
+.nameBox input {
+  width: 100%;
+  height: 55px;
+  padding: 17px 5px;
+  font-size: 16px;
+  background-color: RGB(250, 250, 250);
+  outline: none;
+  border-radius: 4px;
+}
+.nameBox textarea,
+.button {
+  border: 1px solid RGB(219, 222, 231);
+  background-color: RGB(250, 250, 250);
+  border-radius: 4px;
+  height: 95px;
+  padding: 7px 7px;
+  font-size: 17px;
+}
+.nameBox .button {
+  width: 262px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: RGB(248, 193, 69);
+}
+@media (max-width: 1017px) {
+  .nameContainer {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 800px) {
+  .nameContainer {
+    padding: 10px 35px;
+  }
+  .nameItem {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .nameBox {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .nameBox input {
+    margin-bottom: 20px;
+  }
+  .nameBox textarea {
+    margin-bottom: 20px;
+  }
+  .nameBox span {
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+  .nameBox h1 {
+    font-size: 35px;
+  }
+  .replace {
+    display: flex;
+  }
+  .replaceCont {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* name finish ////////////////////////////////////////////////////////// */
+
+/* nomer start ////////////////////////////////////////////////////////// */
+.nomerContainer {
+  width: 100%;
+  height: auto;
+  background-color: RGB(250, 250, 250);
+  position: relative;
+  overflow: hidden;
+  padding: 15px 130px;
+}
+.nomerItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nomerBox {
+  width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+  position: relative;
+}
+.nomerBox span{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+.nomerBox span label{
+  position: absolute;
+}
+.adi {
+  margin-left: 20px;
+}
+.nomerBox img {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 70px;
+  object-fit: cover;
+  
+}
+.nomerBox .buttonNomer {
+  padding: 18px 26%;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background-color: RGB(248, 193, 69);
+  text-align: center;
+}
+.nomerBox input {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.nomerBox label {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.nomerBox i {
+  color: yellow;
+}
+.nomerBox .bx-trash{
+  position: absolute;
+  top: 10px;
+  right: 75px;
+  z-index: 10;
+}
+@media (max-width: 1150px) {
+  .nomerContainer {
+    padding: 10px 40px;
+  }
+}
+@media (max-width: 950px) {
+  .nomerItem {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 850px) {
+  .nomerItem {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .nomerBox {
+    max-width: 100%;
+  }
+  .nomerBox input {
+    width: 100%;
+  }
+  .nomerBox img,
+  .buttonNomer {
+    margin-bottom: 70px;
+  }
+  .adi {
+    margin: 0;
+  }
+}
+@media (max-width: 420px) {
+  .nomerItem {
+    padding-left: 45px;
+  }
+  .nomerBox input {
+    width: 100%;
+  }
+  .nomerBox img,
+  .buttonNomer {
+    min-width: 80%;
+    text-align: center ;
+  }
+  .nomerBox input {
+    width: 80%;
+  }
+}
+/* nomer finish ////////////////////////////////////////////////////////// */
+/* Vixod start ////////////////////////////////////////////////////////// */
+.vixodContainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: RGB(250, 250, 250);
+  padding: 20px 100px 100px;
+}
+.vixodContainer h1{
+    margin: 10px auto 30px;
+    text-align: center;
+}
+.vixodItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.vixodItem .vixodBox {
+  line-height: 55px;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vixodItem .vixodBox form input {
+  display: block;
+  margin-bottom: 35px;
+  width: 90%;
+  height: 50px;
+  padding: 7px 15px;
+  font-size: 18px;
+  outline: none;
+}
+.vixodItem .vixodBox form button {
+  width: 50%;
+  height: 50px;
+  background-color: RGB(248, 193, 69);
+  border: none;
+  border-radius: 4px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+@media(max-width:900px){
+    .vixodContainer{
+        padding: 20px 20px;
+    }
+    .vixodItem{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .vixodItem .vixodBox{
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:650px){
+    .vixodItem .vixodBox form{
+        max-width: 80%;
+        margin-left: 30px;
+    }
+}
+/* Vixod finish ////////////////////////////////////////////////////////// */
+/* registratsiya finish ////////////////////////////////////////////////////////// */
+.registratsiyaContainer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: RGB(250, 250, 250);
+    padding: 20px 130px 100px; 
+}
+.registratsiyaItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.registratsiyaBox{
+    height: 55vh;
+    line-height: 26px;
+    width: 45%;
+}
+.registratsiyaBox img{
+    margin-top: 40px;
+    width: 120%;
+}
+.registratsiyaBox form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.registratsiyaBox form input{
+    display: block;
+    width: 100%;
+    height: 6vh;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 2vh;
+    border: 1px solid RGB(219, 222, 231);
+    outline: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.registratsiyaBox form button{
+    width: 50%;
+    height: 7vh;
+    font-size:3vh;
+    background-color: RGB(248, 193, 69);
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+@media(max-width:1200px){
+    .registratsiyaContainer{
+        padding: 20px;
+    }
+    .registratsiyaBox form{
+        padding: 20px 0px;
+    }
+}
+@media(max-width:900px){
+    .registratsiyaItem{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .registratsiyaBox{
+        width: 100%;
+    }
+    .registratsiyaBox img{
+        width: 100%;
+    }
+}
+/* registratsiya finish ////////////////////////////////////////////////////////// */

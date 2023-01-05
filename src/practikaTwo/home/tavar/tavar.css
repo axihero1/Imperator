@@ -1,0 +1,497 @@
+/*  korzinka > tavar start /////////////////////////////////////////*/
+.countContainer {
+  width: 100%;
+  height: auto;
+  padding: 15px 130px;
+  background-color: RGB(250, 250, 250);
+}
+.countBox {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price .btn-trash {
+  display: none;
+}
+.countBox p {
+  line-height: 23px;
+}
+.countBox span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.countItem {
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.countItem img {
+  height: 40vh;
+}
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.price span {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.price .count {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+}
+.price .count button {
+  width: 70px;
+  padding: 10px 10px;
+  border: none;
+  height: 40px;
+  background-color: RGB(248, 193, 69);
+}
+.price .count h4 {
+  background-color: RGB(242, 242, 242);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-multi-carousel-list  {
+  width: 100%;
+  height: 65vh;
+}
+
+
+
+.bill-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 130px;
+}
+.bill-container .sena {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bill-container .zakaz {
+  padding: 10px 50px;
+  font-size: 16px;
+  background-color: RGB(248, 193, 69);
+  border: none;
+}
+.body {
+  background-color: RGB(250, 250, 250);
+}
+
+/*  korzinka > tavar start /////////////////////////////////////////*/
+/*  ofarmilina > tavar start /////////////////////////////////////////*/
+.ofarmi {
+  background-color: RGB(250, 250, 250);
+}
+.ofarmilina-container {
+  width: 100%;
+  height: auto;
+  padding: 10px 130px;
+}
+.ofarmilina-container h1 {
+  text-align: center;
+  margin: 20px 0 30px 0px;
+}
+.ofar-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.ofar-head .form {
+  display: flex;
+  flex-flow: column;
+  height: 45vh;
+  min-width: 50%;
+  justify-content: space-between;
+}
+.miniVash {
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+.ofar-head .left {
+  width: 50%;
+}
+.ofar-head .boxItem1 {
+  position: absolute;
+  top: 0px;
+  width: 490px;
+}
+.ofar-head .boxItem1 span {
+  display: flex;
+  justify-content: space-between;
+  background-color: RGB(248, 193, 69);
+  width: 42%px;
+  padding: 10px 15px;
+}
+.ofar-head .boxItem2 {
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.ofar-head .boxItem2 .box {
+  width: 370px;
+  display: flex;
+  align-items: center;
+}
+.boxItem2 input {
+  width: 100%;
+  transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -o-transform: scale(1.6);
+}
+.left .boxItem2 .box img {
+  width: 100%;
+}
+.boxItem2 .mini {
+  width: 120px;
+  margin-left: 10px;
+}
+.ofar-head .right {
+  margin-left: 20px;
+  width: 50%;
+}
+.ofar-head .right input {
+  padding: 20px 10px;
+  border: none;
+  background-color: RGB(241, 241, 241);
+  outline: none;
+  min-width: 100%;
+}
+.ofar-head .right button {
+  padding: 17px 20px;
+  font-size: 17px;
+  background-color: RGB(248, 193, 69);
+  border: none;
+}
+
+/*  ofarmilina > tavar finish /////////////////////////////////////////*/
+/*  magazin > tavar start /////////////////////////////////////////*/
+
+.magazine-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 15px 100px;
+}
+.magazine-item1,
+.magazine-item {
+  width: 100%;
+  margin: auto;
+}
+.katigoriyah1 {
+  text-align: center;
+  margin: 50px 0 15px 0;
+}
+.magazine-item {
+  padding: 0 30px;
+}
+.magazini-box1,
+.magazini-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.magazine-item1 img {
+  min-width: 240px;
+  max-width: 240px;
+  margin: auto;
+  height: 80px;
+  padding: 15px 30px;
+  background-color: RGB(237, 237, 237);
+  object-fit: contain;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.magazini-box img {
+  min-width: 180px;
+  max-width: 180px;
+  height: 60px;
+  padding: 10px 15px;
+  background-color: RGB(237, 237, 237);
+  margin-top: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.magazini-box h2 {
+  padding: 18px 38px;
+  background-color: RGB(248, 193, 69);
+  border-radius: 8px;
+  font-size: 22px;
+  margin: 5px;
+  text-align: center;
+}
+@media (max-width: 1155px) {
+  .magazine-container {
+    padding: 10px;
+  }
+  .magazine-item {
+    padding: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .magazini-box1,
+  .magazini-box {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+@media (max-width: 420px) {
+  .magazini-box1,
+  .magazini-box {
+    justify-content: space-between;
+  }
+}
+/*  ofarmilina > tavar finish /////////////////////////////////////////*/
+
+/*  oplata > tavar start /////////////////////////////////////////*/
+.oplata-container {
+  width: 100%;
+  height: auto;
+  padding: 15px 120px;
+  background-color: RGB(250, 250, 250);
+}
+.oplatah1 {
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+.oplata-head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.oplata-head img{
+  width: 70%;
+  margin-right: 40px;
+  transform: scale(.8);
+  margin-top: -30px;
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -ms-transform: scale(.8);
+  -o-transform: scale(.8);
+}
+.oplata-form {
+  width: 75%;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.oplata-form input {
+  width: 100%;
+  height: 60px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: RGB(241, 241, 241);
+  border: none;
+  outline: none;
+}
+.oplata-form label {
+  margin-bottom: -25px;
+}
+.oplata-form button {
+  padding: 17px 30px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  background-color: RGB(248, 193, 69);
+}
+/*  oplata > tavar finish /////////////////////////////////////////*/
+@media (max-width: 1100px) {
+  .ofarmilina-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .countContainer {
+    padding: 20px;
+  }
+  .bill-container {
+    padding: 20px;
+  }
+}
+@media (max-width: 955px) {
+  .oplata-container {
+    padding: 15px;
+  }
+  .ofar-head {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .ofar-head .boxItem1 {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+  }
+  .ofar-head .right {
+    width: 100%;
+  }
+  .ofar-head .left {
+    width: 100%;
+  }
+  .btn-trash {
+    display: block;
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* .countItem{
+    flex-direction: column;
+    height: 85vh;
+  } */
+  .magazini-box img{
+    margin-left: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .oplata-head{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .oplata-head .oplata-form{
+    margin-bottom: 20px;
+    margin: 20px auto 0px;
+  }
+  .price {
+    margin-top: 20px;
+  }
+  .countItem {
+    max-height: 25vh;
+  }
+  .countItem img {
+    max-height: 100%;
+  }
+  .price span {
+    max-width: 20%;
+  }
+  .size28 {
+    position: absolute;
+    bottom: 40px;
+    min-width: 100%;
+  }
+  .comment {
+    transform: translateY(-10px);
+    padding-right: 0px;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+}
+@media (max-width: 560px) {
+  .ofar-head .boxItem1{
+    width: 95%;
+  }
+  .ofar-head .boxItem2{
+    margin-top: 60px;
+  }
+  .countBox {
+    padding: 10px;
+  }
+  .countItem2 img {
+    width: 43%;
+    height: 100%;
+  }
+  .left .boxItem2 {
+    width: 100%;
+  }
+  .left .boxItem2 .box img {
+    width: 70%;
+  }
+  .ofar-head .form {
+    margin-right: 25px;
+  }
+  .count {
+    bottom: -3px;
+    max-width: 120px;
+  }
+  .btn-bottom {
+    display: none;
+  }
+  .price .btn-trash {
+    display: block;
+  }
+  .countBox p {
+    line-height: 20px;
+  }
+  .comment {
+    display: none;
+  }
+  .size28 {
+    font-size: 20px;
+    bottom: 55px;
+  }
+  .countBox h3 {
+    font-size: 22px;
+  }
+  .bill-container {
+    flex-direction: column;
+    line-height: 35px;
+    margin-bottom: 100px;
+  }
+  .bill-container .zakaz {
+    width: 100%;
+    padding: 20px;
+  }
+  .bill-container .sena {
+    width: 100%;
+    padding: 15px 30px;
+  }
+  .magazine-item {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 392px) {
+  .magazini-box {
+    display: block;
+  }
+  .ofar-head .form{
+    height: 35vh;
+  }
+  .countItem img {
+    height: 40vh;
+    max-width: 150px;
+    object-fit: cover;
+  }
+
+}
